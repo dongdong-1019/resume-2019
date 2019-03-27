@@ -1,0 +1,133 @@
+/*css reset*/
+*{margin: 0;padding: 0;box-sizing:border-box;}
+a{text-decoration: none;color: #4cabf2;}
+h1{color: #4cabf2;}
+/*common css*/
+.pill{
+
+}
+.layout{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*page css*/
+body{
+   font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+   color: #333;
+}
+
+.information{
+    margin-left:20px; 
+}
+.wrapper{
+    background: #ececec;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+.aside{
+    float: left;
+    width:280px;
+}
+.head-sculpture{
+    width: 200px; 
+    height: 250px;
+    border-radius: 60%;
+}
+.aside>.user{
+    text-align: center;
+    padding:30px 0 20px 0;
+}
+.aside .user h1{
+    font-size: 40px;
+}
+.aside .user h1::after{
+    content: '';
+    display: block;
+    width: 80px;
+    border-top:1px solid #d6d6d6;
+    margin:16px auto;
+}
+.aside .user::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: 20px;
+    border-top: 20px solid #d6d6d6;
+    border-bottom: 20px solid transparent;
+    border-right: 140px solid #d6d6d6;
+    border-left: 140px solid transparent;
+
+}
+.aside .contact{padding: 20px;}
+.aside .contact li{
+    border-bottom: 1px solid #d6d6d6;
+    list-style: none;
+    line-height: 40px;
+}
+.aside .contact .iconfont{
+    border-right: 1px solid #d6d6d6;
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: #4cabf2;
+}
+.aside .skills {
+    background: #4cabf2;
+    padding: 20px;
+    color: #fff;
+}
+.aside .skills dt{
+    color: #eee;
+    margin-top: 20px;
+}
+.aside .skills dd{
+    height: 4px;
+    background: #7cc2ff;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.aside .skills .mastery{
+    height: 4px;
+    background: #fff;
+    display: block;
+    border-radius: 2px;
+}
+main{
+    margin-left: 280px;
+    background: white;
+    margin-top: 20px;
+    margin-right:20px ;
+    text-align:center;
+}
+.works{
+    width: 100%;
+    margin-top: 20px; 
+    border: 1px gray solid;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.works ul{
+    list-style: none;
+    display: inline-block;
+}
+.works ul li{
+    margin-left:45px ;
+    margin-right:45px ;
+}
+.highlight{
+   color: #FF5700;
+   border-radius:5px;
+   background: #efefef; 
+}
+strong{
+    
+}
